@@ -3,11 +3,12 @@ import Hero from './components/Hero'
 import HeadlineCards from './components/HeadlineCards'
 import Food from './components/Food'
 import Category from './components/Category'
-
+import Navbar from './components/Navbar.jsx'
 import Home from './components/About'
 import Team from './components/Team'
 import Testimonial from './components/Testimonial'
 import Reservation from './components/Reservation'
+import ContactUs from './components/ContactUs'
 
 
 function App() {
@@ -16,13 +17,16 @@ function App() {
 
       <Navbar />
       <Hero />
+
       <HeadlineCards />
+      <Home />
       <Food />
       <Category />
-      <Home />
+
       {/* <Team /> */}
       <Testimonial />
       <Reservation />
+      <ContactUs />
     </div>
   );
 }
